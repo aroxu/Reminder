@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D761F926249E1D7A00562BD8 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D761F924249E1D7A00562BD8 /* ReminderModel.xcdatamodeld */; };
 		D76CEFC9249E085C002787F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CEFC8249E085C002787F8 /* AppDelegate.swift */; };
 		D76CEFCB249E085C002787F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CEFCA249E085C002787F8 /* SceneDelegate.swift */; };
 		D76CEFD0249E085C002787F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CEFCF249E085C002787F8 /* ContentView.swift */; };
@@ -20,6 +19,7 @@
 		D76CEFFE249E0CAC002787F8 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CEFFD249E0CAC002787F8 /* Reminder.swift */; };
 		D76CF000249E0D85002787F8 /* ReminderBean.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CEFFF249E0D85002787F8 /* ReminderBean.swift */; };
 		D76CF002249E0F46002787F8 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76CF001249E0F46002787F8 /* DateExtension.swift */; };
+		D7B2F891249E3169009D9EFF /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7B2F88F249E3169009D9EFF /* ReminderModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,7 @@
 
 /* Begin PBXFileReference section */
 		D71B66DD249E227900ED2F7A /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
-		D761F925249E1D7A00562BD8 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
-		D76CEFC5249E085C002787F8 /* Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76CEFC5249E085C002787F8 /* ReminderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReminderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76CEFC8249E085C002787F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D76CEFCA249E085C002787F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D76CEFCF249E085C002787F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,16 +49,17 @@
 		D76CEFD4249E085E002787F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D76CEFD7249E085E002787F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D76CEFD9249E085E002787F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D76CEFDE249E085E002787F8 /* ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76CEFDE249E085E002787F8 /* ReminderAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76CEFE2249E085E002787F8 /* reminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderTests.swift; sourceTree = "<group>"; };
 		D76CEFE4249E085E002787F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D76CEFE9249E085E002787F8 /* ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76CEFE9249E085E002787F8 /* ReminderAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReminderAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D76CEFED249E085E002787F8 /* reminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = reminderUITests.swift; sourceTree = "<group>"; };
 		D76CEFEF249E085E002787F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D76CEFFB249E08B8002787F8 /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
 		D76CEFFD249E0CAC002787F8 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		D76CEFFF249E0D85002787F8 /* ReminderBean.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderBean.swift; sourceTree = "<group>"; };
 		D76CF001249E0F46002787F8 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		D7B2F890249E3169009D9EFF /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +100,9 @@
 		D76CEFC6249E085C002787F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D76CEFC5249E085C002787F8 /* Reminder.app */,
-				D76CEFDE249E085E002787F8 /* ReminderTests.xctest */,
-				D76CEFE9249E085E002787F8 /* ReminderUITests.xctest */,
+				D76CEFC5249E085C002787F8 /* ReminderApp.app */,
+				D76CEFDE249E085E002787F8 /* ReminderAppTests.xctest */,
+				D76CEFE9249E085E002787F8 /* ReminderAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 				D76CEFFD249E0CAC002787F8 /* Reminder.swift */,
 				D76CEFFF249E0D85002787F8 /* ReminderBean.swift */,
 				D76CF001249E0F46002787F8 /* DateExtension.swift */,
-				D761F924249E1D7A00562BD8 /* ReminderModel.xcdatamodeld */,
+				D7B2F88F249E3169009D9EFF /* ReminderModel.xcdatamodeld */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";
@@ -155,9 +155,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D76CEFC4249E085C002787F8 /* Reminder */ = {
+		D76CEFC4249E085C002787F8 /* ReminderApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76CEFF2249E085E002787F8 /* Build configuration list for PBXNativeTarget "Reminder" */;
+			buildConfigurationList = D76CEFF2249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderApp" */;
 			buildPhases = (
 				D76CEFC1249E085C002787F8 /* Sources */,
 				D76CEFC2249E085C002787F8 /* Frameworks */,
@@ -167,14 +167,14 @@
 			);
 			dependencies = (
 			);
-			name = Reminder;
+			name = ReminderApp;
 			productName = reminder;
-			productReference = D76CEFC5249E085C002787F8 /* Reminder.app */;
+			productReference = D76CEFC5249E085C002787F8 /* ReminderApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D76CEFDD249E085E002787F8 /* ReminderTests */ = {
+		D76CEFDD249E085E002787F8 /* ReminderAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76CEFF5249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderTests" */;
+			buildConfigurationList = D76CEFF5249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderAppTests" */;
 			buildPhases = (
 				D76CEFDA249E085E002787F8 /* Sources */,
 				D76CEFDB249E085E002787F8 /* Frameworks */,
@@ -185,14 +185,14 @@
 			dependencies = (
 				D76CEFE0249E085E002787F8 /* PBXTargetDependency */,
 			);
-			name = ReminderTests;
+			name = ReminderAppTests;
 			productName = reminderTests;
-			productReference = D76CEFDE249E085E002787F8 /* ReminderTests.xctest */;
+			productReference = D76CEFDE249E085E002787F8 /* ReminderAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D76CEFE8249E085E002787F8 /* ReminderUITests */ = {
+		D76CEFE8249E085E002787F8 /* ReminderAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D76CEFF8249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderUITests" */;
+			buildConfigurationList = D76CEFF8249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderAppUITests" */;
 			buildPhases = (
 				D76CEFE5249E085E002787F8 /* Sources */,
 				D76CEFE6249E085E002787F8 /* Frameworks */,
@@ -203,9 +203,9 @@
 			dependencies = (
 				D76CEFEB249E085E002787F8 /* PBXTargetDependency */,
 			);
-			name = ReminderUITests;
+			name = ReminderAppUITests;
 			productName = reminderUITests;
-			productReference = D76CEFE9249E085E002787F8 /* ReminderUITests.xctest */;
+			productReference = D76CEFE9249E085E002787F8 /* ReminderAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -231,7 +231,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D76CEFC0249E085C002787F8 /* Build configuration list for PBXProject "Reminder" */;
+			buildConfigurationList = D76CEFC0249E085C002787F8 /* Build configuration list for PBXProject "ReminderApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -245,9 +245,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D76CEFC4249E085C002787F8 /* Reminder */,
-				D76CEFDD249E085E002787F8 /* ReminderTests */,
-				D76CEFE8249E085E002787F8 /* ReminderUITests */,
+				D76CEFC4249E085C002787F8 /* ReminderApp */,
+				D76CEFDD249E085E002787F8 /* ReminderAppTests */,
+				D76CEFE8249E085E002787F8 /* ReminderAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D76CEFC9249E085C002787F8 /* AppDelegate.swift in Sources */,
-				D761F926249E1D7A00562BD8 /* ReminderModel.xcdatamodeld in Sources */,
+				D7B2F891249E3169009D9EFF /* ReminderModel.xcdatamodeld in Sources */,
 				D76CF002249E0F46002787F8 /* DateExtension.swift in Sources */,
 				D76CEFCB249E085C002787F8 /* SceneDelegate.swift in Sources */,
 				D76CEFD0249E085C002787F8 /* ContentView.swift in Sources */,
@@ -316,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		D76CEFE0249E085E002787F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D76CEFC4249E085C002787F8 /* Reminder */;
+			target = D76CEFC4249E085C002787F8 /* ReminderApp */;
 			targetProxy = D76CEFDF249E085E002787F8 /* PBXContainerItemProxy */;
 		};
 		D76CEFEB249E085E002787F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D76CEFC4249E085C002787F8 /* Reminder */;
+			target = D76CEFC4249E085C002787F8 /* ReminderApp */;
 			targetProxy = D76CEFEA249E085E002787F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -434,7 +434,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminder.app/Reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderApp.app/ReminderApp";
 			};
 			name = InHouse;
 		};
@@ -636,7 +636,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminder.app/Reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderApp.app/ReminderApp";
 			};
 			name = Debug;
 		};
@@ -658,7 +658,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reminder.app/Reminder";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReminderApp.app/ReminderApp";
 			};
 			name = Release;
 		};
@@ -705,7 +705,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D76CEFC0249E085C002787F8 /* Build configuration list for PBXProject "Reminder" */ = {
+		D76CEFC0249E085C002787F8 /* Build configuration list for PBXProject "ReminderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76CEFF0249E085E002787F8 /* Debug */,
@@ -715,7 +715,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76CEFF2249E085E002787F8 /* Build configuration list for PBXNativeTarget "Reminder" */ = {
+		D76CEFF2249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76CEFF3249E085E002787F8 /* Debug */,
@@ -725,7 +725,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76CEFF5249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderTests" */ = {
+		D76CEFF5249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76CEFF6249E085E002787F8 /* Debug */,
@@ -735,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D76CEFF8249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderUITests" */ = {
+		D76CEFF8249E085E002787F8 /* Build configuration list for PBXNativeTarget "ReminderAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D76CEFF9249E085E002787F8 /* Debug */,
@@ -748,12 +748,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		D761F924249E1D7A00562BD8 /* ReminderModel.xcdatamodeld */ = {
+		D7B2F88F249E3169009D9EFF /* ReminderModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				D761F925249E1D7A00562BD8 /* ReminderModel.xcdatamodel */,
+				D7B2F890249E3169009D9EFF /* ReminderModel.xcdatamodel */,
 			);
-			currentVersion = D761F925249E1D7A00562BD8 /* ReminderModel.xcdatamodel */;
+			currentVersion = D7B2F890249E3169009D9EFF /* ReminderModel.xcdatamodel */;
 			path = ReminderModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

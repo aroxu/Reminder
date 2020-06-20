@@ -48,7 +48,8 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+        ContentView().environment(\.managedObjectContext, (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext)
     }
 }

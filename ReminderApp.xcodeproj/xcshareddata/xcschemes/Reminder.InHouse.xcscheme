@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D76CEFC4249E085C002787F8"
-               BuildableName = "Reminder.app"
-               BlueprintName = "Reminder"
-               ReferencedContainer = "container:Reminder.xcodeproj">
+               BuildableName = "ReminderApp.app"
+               BlueprintName = "ReminderApp"
+               ReferencedContainer = "container:ReminderApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,30 +28,10 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D76CEFDD249E085E002787F8"
-               BuildableName = "ReminderTests.xctest"
-               BlueprintName = "ReminderTests"
-               ReferencedContainer = "container:Reminder.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D76CEFE8249E085E002787F8"
-               BuildableName = "ReminderUITests.xctest"
-               BlueprintName = "ReminderUITests"
-               ReferencedContainer = "container:Reminder.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Debug"
+      buildConfiguration = "InHouse"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -65,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D76CEFC4249E085C002787F8"
-            BuildableName = "Reminder.app"
-            BlueprintName = "Reminder"
-            ReferencedContainer = "container:Reminder.xcodeproj">
+            BuildableName = "ReminderApp.app"
+            BlueprintName = "ReminderApp"
+            ReferencedContainer = "container:ReminderApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,14 +62,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D76CEFC4249E085C002787F8"
-            BuildableName = "Reminder.app"
-            BlueprintName = "Reminder"
-            ReferencedContainer = "container:Reminder.xcodeproj">
+            BuildableName = "ReminderApp.app"
+            BlueprintName = "ReminderApp"
+            ReferencedContainer = "container:ReminderApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Release">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
